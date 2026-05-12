@@ -149,7 +149,9 @@ def leer_offset():
 
 def guardar_offset(offset):
     """Guarda el offset actual"""
-    os.makedirs(os.path.dirname(OFFSET_FILE), exist_ok=True)
+    directorio = os.path.dirname(OFFSET_FILE)
+    if directorio and not os.path.exists(directorio):
+        os.makedirs(directorio)
     with open(OFFSET_FILE, 'w') as f:
         f.write(str(offset))
 
@@ -165,7 +167,9 @@ def leer_recetas_pendientes():
 
 def guardar_recetas_pendientes(recetas):
     """Guarda el JSON de recetas pendientes"""
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    directorio = os.path.dirname(OUTPUT_FILE)
+    if directorio and not os.path.exists(directorio):
+        os.makedirs(directorio)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(recetas, f, ensure_ascii=False, indent=2)
     print(f"✅ {len(recetas)} recetas pendientes guardadas en {OUTPUT_FILE}")
