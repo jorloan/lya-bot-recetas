@@ -17,8 +17,8 @@ from datetime import datetime
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_GROUP_ID = os.environ.get('TELEGRAM_GROUP_ID', '-852551974')
 CLAUDE_API_KEY = os.environ.get('CLAUDE_API_KEY', '')
-OFFSET_FILE = 'public/telegram_offset.txt'
-OUTPUT_FILE = 'public/recetas_pendientes.json'
+OFFSET_FILE = 'telegram_offset.txt'
+OUTPUT_FILE = 'recetas_pendientes.json'
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -149,9 +149,6 @@ def leer_offset():
 
 def guardar_offset(offset):
     """Guarda el offset actual"""
-    directorio = os.path.dirname(OFFSET_FILE)
-    if directorio and not os.path.exists(directorio):
-        os.makedirs(directorio)
     with open(OFFSET_FILE, 'w') as f:
         f.write(str(offset))
 
@@ -167,9 +164,6 @@ def leer_recetas_pendientes():
 
 def guardar_recetas_pendientes(recetas):
     """Guarda el JSON de recetas pendientes"""
-    directorio = os.path.dirname(OUTPUT_FILE)
-    if directorio and not os.path.exists(directorio):
-        os.makedirs(directorio)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(recetas, f, ensure_ascii=False, indent=2)
     print(f"✅ {len(recetas)} recetas pendientes guardadas en {OUTPUT_FILE}")
