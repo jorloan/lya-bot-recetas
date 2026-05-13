@@ -1,72 +1,52 @@
-#!/usr/bin/env python3
-"""
-Bot Recetas LyA — Lee PDFs del grupo de Telegram y extrae datos con Claude API
-Se ejecuta cada 5 minutos via GitHub Actions
-"""
-
 import urllib.request
-import urllib.parse
+import urllib.error
 import json
+import base64
 import os
 import ssl
-import base64
-import time
+import re
 from datetime import datetime
 
-# ── CONFIGURACIÓN ─────────────────────────────────────────────────────────────
+# Configuracion (estas variables se leen del entorno de GitHub)
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_GROUP_ID = os.environ.get('TELEGRAM_GROUP_ID', '-852551974')
 CLAUDE_API_KEY = os.environ.get('CLAUDE_API_KEY', '')
-OFFSET_FILE = 'telegram_offset.txt'
-OUTPUT_FILE = 'recetas_pendientes.json'
 
+# Deshabilitar validacion SSL estricta
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-def tg_request(method, params=None, files=None):
-    """Llamada a la API de Telegram"""
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/{method}"
-    if params:
-        url += '?' + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+def descargar_pdf(file_id):
+    """Descarga el PDF de Telegram en memoria"""
     try:
-        with urllib.request.urlopen(req, context=ctx, timeout=30) as r:
-            return json.loads(r.read().decode())
-    except Exception as e:
-        print(f"❌ Error Telegram API {method}: {e}")
-        return None
-
-def descargar_archivo(file_id):
-    """Descarga un archivo de Telegram y devuelve bytes"""
-    # Obtener ruta del archivo
-    res = tg_request('getFile', {'file_id': file_id})
-    if not res or not res.get('ok'):
-        return None
-    file_path = res['result']['file_path']
-    url = f"https://api.telegram.org/file/bot{TELEGRAM_TOKEN}/{file_path}"
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, context=ctx, timeout=60) as r:
+        url_info = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getFile?file_id={file_id}"
+        with urllib.request.urlopen(url_info, context=ctx) as r:
+            info = json.loads(r.read().decode())
+            file_path = info['result']['file_path']
+        
+        url_file = f"https://api.telegram.org/file/bot{TELEGRAM_TOKEN}/{file_path}"
+        with urllib.request.urlopen(url_file, context=ctx) as r:
             return r.read()
     except Exception as e:
         print(f"❌ Error descargando archivo: {e}")
         return None
 
 def extraer_receta_claude(pdf_bytes, nombre_archivo, remitente):
-    """Envía el PDF a Claude API y extrae los datos de la receta"""
-    pdf_b64 = base64.standard_b64encode(pdf_bytes).decode()
-
+    """Envia el PDF a Claude para que extraiga los datos"""
+    
+    b64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+    
     prompt = """Analiza este documento que es una receta/recomendación de tratamiento fitosanitario agrícola.
 Extrae TODOS los datos que encuentres y devuelve ÚNICAMENTE un JSON válido con esta estructura exacta:
 
 {
-  "finca": "nombre de la finca o parcela",
-  "plantacion": "variedad o plantación (si aparece)",
-  "fechaVisita": "YYYY-MM-DD (fecha de la visita del técnico, si aparece)",
-  "fechaAplicacion": "YYYY-MM-DD (fecha recomendada para el tratamiento)",
+  "finca": "nombre de la finca o parcela (suele venir bajo el epígrafe 'Finca')",
+  "plantacion": "variedad o plantación (suele venir bajo 'Plantación' o 'Cultivo')",
+  "fechaVisita": "YYYY-MM-DD (bajo 'Fecha Visita', asegúrate de convertir el formato a Año-Mes-Día)",
+  "fechaAplicacion": "YYYY-MM-DD (bajo 'Fecha Aplicacion', en formato Año-Mes-Día)",
   "volumen": 0,
-  "observaciones": "texto libre con observaciones o motivo del tratamiento",
+  "observaciones": "texto libre bajo 'Observaciones' (pon cadena vacía si no hay nada)",
   "productos": [
     {
       "nombre": "nombre comercial del producto",
@@ -77,16 +57,17 @@ Extrae TODOS los datos que encuentres y devuelve ÚNICAMENTE un JSON válido con
 }
 
 Notas importantes:
-- fechaVisita y fechaAplicacion deben ser formato YYYY-MM-DD. Si solo hay una fecha, úsala como fechaAplicacion.
-- dosis en cc por cada 100 litros de caldo (cc/100L). Si viene en otra unidad, conviértela.
-- volumen en L/ha. Si no aparece, pon 0.
-- Si hay varios productos, incluye todos en el array.
-- Si algún campo no aparece, pon cadena vacía "" o 0 según corresponda.
-- Devuelve SOLO el JSON, sin texto adicional, sin markdown, sin explicaciones."""
+- fechaVisita y fechaAplicacion deben ser obligatoriamente formato YYYY-MM-DD (ej: 2026-05-14). Convierte desde DD-MM-YYYY.
+- dosis: busca bajo "Dosis ((gr-cc/100 l))" o la columna de cantidades. Extrae SOLO el número.
+- volumen: busca bajo "Volumen de Caldo". Si pone 0, pon un número 0.
+- productos: la lista suele tener el formato "NOMBRE DEL PRODUCTO" seguido de "CANTIDAD" y luego "[TIPO] MATERIA ACTIVA". Separa bien cada producto en un bloque de la lista.
+- Si algún campo no aparece, pon cadena vacía "" o el número 0 según corresponda.
+- Devuelve SOLO Y EXCLUSIVAMENTE texto JSON válido sin explicaciones adicionales."""
 
     payload = {
-        "model": "claude-sonnet-4-20250514",
-        "max_tokens": 1000,
+        "model": "claude-3-5-sonnet-latest",
+        "max_tokens": 1500,
+        "temperature": 0.2,
         "messages": [
             {
                 "role": "user",
@@ -96,7 +77,7 @@ Notas importantes:
                         "source": {
                             "type": "base64",
                             "media_type": "application/pdf",
-                            "data": pdf_b64
+                            "data": b64_pdf
                         }
                     },
                     {
@@ -114,166 +95,5 @@ Notas importantes:
         headers={
             'Content-Type': 'application/json',
             'x-api-key': CLAUDE_API_KEY,
-            'anthropic-version': '2023-06-01'
-        },
-        method='POST'
-    )
-
-    try:
-        with urllib.request.urlopen(req, context=ctx, timeout=60) as r:
-            resp = json.loads(r.read().decode())
-            texto = resp['content'][0]['text'].strip()
-            # Limpiar posibles backticks
-            if texto.startswith('```'):
-                texto = texto.split('```')[1]
-                if texto.startswith('json'):
-                    texto = texto[4:]
-            datos = json.loads(texto.strip())
-            datos['_fuente'] = f"Telegram: {nombre_archivo} (de {remitente})"
-            datos['_importado'] = datetime.now().strftime("%Y-%m-%d %H:%M")
-            datos['_estado'] = 'pendiente_revision'
-            return datos
-    except Exception as e:
-        print(f"❌ Error Claude API: {e}")
-        return None
-
-def leer_offset():
-    """Lee el último offset procesado"""
-    if os.path.exists(OFFSET_FILE):
-        try:
-            with open(OFFSET_FILE, 'r') as f:
-                return int(f.read().strip())
-        except:
-            pass
-    return 0
-
-def guardar_offset(offset):
-    """Guarda el offset actual"""
-    with open(OFFSET_FILE, 'w') as f:
-        f.write(str(offset))
-
-def leer_recetas_pendientes():
-    """Lee el JSON de recetas pendientes"""
-    if os.path.exists(OUTPUT_FILE):
-        try:
-            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except:
-            pass
-    return []
-
-def guardar_recetas_pendientes(recetas):
-    """Guarda el JSON de recetas pendientes"""
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(recetas, f, ensure_ascii=False, indent=2)
-    print(f"✅ {len(recetas)} recetas pendientes guardadas en {OUTPUT_FILE}")
-
-def principal():
-    if not TELEGRAM_TOKEN:
-        print("❌ TELEGRAM_TOKEN no configurado")
-        return
-    if not CLAUDE_API_KEY:
-        print("❌ CLAUDE_API_KEY no configurado")
-        return
-
-    print(f"🤖 Bot Recetas LyA — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
-    print(f"   Grupo: {TELEGRAM_GROUP_ID}")
-
-    offset = leer_offset()
-    print(f"   Offset actual: {offset}")
-
-    # Obtener actualizaciones
-    params = {'offset': offset, 'timeout': 10, 'limit': 100}
-    updates = tg_request('getUpdates', params)
-
-    if not updates or not updates.get('ok'):
-        print("❌ No se pudieron obtener actualizaciones")
-        return
-
-    mensajes = updates.get('result', [])
-    print(f"   Mensajes nuevos: {len(mensajes)}")
-
-    recetas_nuevas = []
-    nuevo_offset = offset
-
-    for upd in mensajes:
-        nuevo_offset = upd['update_id'] + 1
-        msg = upd.get('message') or upd.get('channel_post')
-        if not msg:
-            continue
-
-        # Solo mensajes del grupo configurado
-        chat_id = str(msg.get('chat', {}).get('id', ''))
-        if chat_id != str(TELEGRAM_GROUP_ID):
-            continue
-
-        # Solo mensajes con documento PDF
-        doc = msg.get('document')
-        if not doc:
-            continue
-
-        mime = doc.get('mime_type', '')
-        nombre = doc.get('file_name', 'receta.pdf')
-
-        if mime != 'application/pdf':
-            print(f"   ⏭ Ignorando archivo no PDF: {nombre} ({mime})")
-            continue
-
-        # Info del remitente
-        from_user = msg.get('from', {})
-        remitente = from_user.get('first_name', '') + ' ' + from_user.get('last_name', '')
-        remitente = remitente.strip() or from_user.get('username', 'desconocido')
-
-        print(f"   📄 PDF detectado: {nombre} (de {remitente})")
-
-        # Descargar PDF
-        pdf_bytes = descargar_archivo(doc['file_id'])
-        if not pdf_bytes:
-            print(f"   ❌ No se pudo descargar {nombre}")
-            continue
-
-        print(f"   📥 Descargado: {len(pdf_bytes)} bytes — enviando a Claude...")
-
-        # Extraer datos con Claude
-        datos = extraer_receta_claude(pdf_bytes, nombre, remitente)
-        if not datos:
-            print(f"   ❌ No se pudieron extraer datos de {nombre}")
-            # Guardar como pendiente manual
-            datos = {
-                'finca': '',
-                'plantacion': '',
-                'fechaVisita': '',
-                'fechaAplicacion': '',
-                'volumen': 0,
-                'observaciones': '',
-                'productos': [],
-                '_fuente': f"Telegram: {nombre} (de {remitente})",
-                '_importado': datetime.now().strftime("%Y-%m-%d %H:%M"),
-                '_estado': 'error_extraccion',
-                '_error': 'No se pudieron extraer datos automáticamente'
-            }
-
-        recetas_nuevas.append(datos)
-        print(f"   ✅ Receta extraída: {datos.get('finca','?')} — {datos.get('fechaAplicacion','?')}")
-        print(f"      Productos: {len(datos.get('productos',[]))}")
-
-        # Pausa entre llamadas a Claude
-        time.sleep(2)
-
-    # Actualizar offset
-    guardar_offset(nuevo_offset)
-
-    # Añadir nuevas recetas al JSON
-    if recetas_nuevas:
-        pendientes = leer_recetas_pendientes()
-        pendientes.extend(recetas_nuevas)
-        # Mantener solo las últimas 50 (las ya importadas se eliminan desde la app)
-        if len(pendientes) > 50:
-            pendientes = pendientes[-50:]
-        guardar_recetas_pendientes(pendientes)
-        print(f"\n🎉 {len(recetas_nuevas)} receta(s) nueva(s) procesada(s)")
-    else:
-        print("   Sin PDFs nuevos en este ciclo")
-
-if __name__ == '__main__':
-    principal()
+            'anthropic-version': '2023-06-01',
+            'anthropic-beta': 'pdfs-2024
