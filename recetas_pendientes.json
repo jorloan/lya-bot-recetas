@@ -11,5 +11,18 @@
     "_importado": "2026-05-13 21:17",
     "_estado": "error_extraccion",
     "_error": "No se pudieron extraer datos automáticamente"
+  },
+  {
+    "finca": "",
+    "plantacion": "",
+    "fechaVisita": "",
+    "fechaAplicacion": "",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [],
+    "_fuente": "Telegram: receta.pdf (de Jose R)",
+    "_importado": "2026-05-13 21:25",
+    "_estado": "error_extraccion",
+    "_error": "No se pudieron extraer datos automáticamente"
   }
 ]
