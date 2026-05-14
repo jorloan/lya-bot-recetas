@@ -8,6 +8,19 @@
     "observaciones": "",
     "productos": [],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-14 16:34",
+    "_estado": "error_extraccion",
+    "_error": "No se pudieron extraer datos automaticamente"
+  },
+  {
+    "finca": "",
+    "plantacion": "",
+    "fechaVisita": "",
+    "fechaAplicacion": "",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-05-14 12:13",
     "_estado": "error_extraccion",
     "_error": "No se pudieron extraer datos automaticamente"
