@@ -39,6 +39,92 @@
       }
     ],
     "_fuente": "Telegram: receta.pdf (de Jose R)",
+    "_importado": "2026-05-16 05:26",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-05-15",
+    "fechaAplicacion": "2026-05-18",
+    "volumen": 0,
+    "observaciones": "Si finalmemte lloviera desde ahorahasta el momento se realizad eltratamiento entoces añadiriamosxanilo a 50 gr",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100
+      },
+      {
+        "nombre": "SEMEFIL 20 SL",
+        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
+        "dosis": 1.5
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20
+      },
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50
+      },
+      {
+        "nombre": "TULGA SPINEX",
+        "principio": "SPINOSAD 48% [SC] P/V",
+        "dosis": 25
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Jose R)",
+    "_importado": "2026-05-16 05:26",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-05-15",
+    "fechaAplicacion": "2026-05-18",
+    "volumen": 0,
+    "observaciones": "Si finalmemte lloviera desde ahora hasta el momento se realizad el tratamiento entoces añadiriamos xanilo a 50 gr",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100
+      },
+      {
+        "nombre": "SEMEFIL 20 SL",
+        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
+        "dosis": 1.5
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20
+      },
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50
+      },
+      {
+        "nombre": "TULGA SPINEX",
+        "principio": "SPINOSAD 48% [SC] P/V",
+        "dosis": 25
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Jose R)",
     "_importado": "2026-05-16 05:20",
     "_estado": "pendiente_revision"
   },
