@@ -38,31 +38,39 @@ def extraer_receta_claude(pdf_bytes, nombre_archivo, remitente):
     b64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
     
     prompt = """Analiza este documento que es una receta/recomendación de tratamiento fitosanitario agrícola.
-Extrae TODOS los datos que encuentres y devuelve ÚNICAMENTE un JSON válido con esta estructura exacta:
+Extrae TODOS los datos y devuelve ÚNICAMENTE un JSON válido con esta estructura exacta:
 
 {
-  "finca": "nombre de la finca o parcela (suele venir bajo el epígrafe 'Finca')",
-  "plantacion": "variedad o plantación (suele venir bajo 'Plantación' o 'Cultivo')",
-  "fechaVisita": "YYYY-MM-DD (bajo 'Fecha Visita', asegúrate de convertir el formato a Año-Mes-Día)",
-  "fechaAplicacion": "YYYY-MM-DD (bajo 'Fecha Aplicacion', en formato Año-Mes-Día)",
+  "finca": "nombre de la finca o parcela (bajo epígrafe 'Finca')",
+  "plantacion": "variedad o plantación (bajo 'Plantación' o 'Cultivo')",
+  "fechaVisita": "YYYY-MM-DD (bajo 'Fecha Visita', convierte DD-MM-YYYY a YYYY-MM-DD)",
+  "fechaAplicacion": "YYYY-MM-DD (bajo 'Fecha Aplicacion', convierte a YYYY-MM-DD)",
   "volumen": 0,
-  "observaciones": "texto libre bajo 'Observaciones' (pon cadena vacía si no hay nada)",
+  "observaciones": "texto libre bajo 'Observaciones'",
   "productos": [
     {
       "nombre": "nombre comercial del producto",
-      "principio": "materia activa si aparece",
-      "dosis": 0
+      "principio": "materia activa incluyendo código de formulación si aparece entre corchetes (ej: AZUFRE 80% [WG] P/P)",
+      "dosis": 0,
+      "unidad": "cc o gr"
     }
   ]
 }
 
-Notas importantes:
-- fechaVisita y fechaAplicacion deben ser obligatoriamente formato YYYY-MM-DD (ej: 2026-05-14). Convierte desde DD-MM-YYYY.
-- dosis: busca bajo "Dosis ((gr-cc/100 l))" o la columna de cantidades. Extrae SOLO el número.
-- volumen: busca bajo "Volumen de Caldo". Si pone 0, pon un número 0.
-- productos: la lista suele tener el formato "NOMBRE DEL PRODUCTO" seguido de "CANTIDAD" y luego "[TIPO] MATERIA ACTIVA". Separa bien cada producto en un bloque de la lista.
-- Si algún campo no aparece, pon cadena vacía "" o el número 0 según corresponda.
-- Devuelve SOLO Y EXCLUSIVAMENTE texto JSON válido sin explicaciones adicionales."""
+REGLAS CRÍTICAS:
+- fechaVisita y fechaAplicacion: formato YYYY-MM-DD obligatorio.
+- volumen: busca bajo "Volumen de Caldo", en L/ha. Si no aparece, pon 0.
+- dosis: busca bajo "Dosis (gr-cc/100 l)" o columna de cantidades.
+  * SIEMPRE en cc/100L para líquidos o gr/100L para sólidos.
+  * Si viene en mL/100L → es igual que cc/100L (mismo número).
+  * Si viene en L/1000L → multiplica × 100 (ej: 0.4 L/1000L = 40 cc/100L).
+  * El campo dosis es SIEMPRE un número, NUNCA texto.
+- unidad: pon "cc" para líquidos (SL, SC, EC, EW...) o "gr" para sólidos (WG, WP, DF...).
+  Si no puedes determinar, pon "cc".
+- principio: incluye el código de formulación entre corchetes si aparece en el documento.
+- productos: separa bien cada producto. El formato suele ser NOMBRE / CANTIDAD / MATERIA ACTIVA.
+- Si algún campo no aparece, pon "" o 0 según corresponda.
+- Devuelve SOLO JSON válido, sin texto adicional, sin markdown, sin explicaciones."""
 
     payload = {
         "model": "claude-sonnet-4-5",
