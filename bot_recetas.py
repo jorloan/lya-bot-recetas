@@ -65,7 +65,7 @@ Notas importantes:
 - Devuelve SOLO Y EXCLUSIVAMENTE texto JSON válido sin explicaciones adicionales."""
 
     payload = {
-        "model": "claude-3-5-sonnet-latest",
+        "model": "claude-sonnet-4-5",
         "max_tokens": 1500,
         "temperature": 0.2,
         "messages": [
@@ -104,13 +104,20 @@ Notas importantes:
     try:
         with urllib.request.urlopen(req, context=ctx, timeout=60) as r:
             resp = json.loads(r.read().decode())
+            if 'error' in resp:
+                print(f"❌ Error Claude: {resp['error']}")
+                return None
+            if not resp.get('content'):
+                print(f"❌ Claude respuesta vacía: {resp}")
+                return None
             texto = resp['content'][0]['text'].strip()
+            print(f"   📝 Respuesta Claude (primeros 200 chars): {texto[:200]}")
             
-            # Limpiar el texto para encontrar solo el JSON usando regex por si mete comillas
+            # Limpiar el texto para encontrar solo el JSON
             match = re.search(r'\{.*\}', texto, re.DOTALL)
             if match:
                 texto = match.group(0)
-                
+            
             datos = json.loads(texto)
             datos['_fuente'] = f"Telegram: {nombre_archivo} (de {remitente})"
             datos['_importado'] = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -200,7 +207,8 @@ def main():
             mime = doc.get('mime_type', '')
             
             # Comprobar si es PDF o imagen
-            if mime == 'application/pdf' or nombre.lower().endswith('.pdf'):
+            print(f"   📎 Archivo: {nombre} | MIME: {mime} | Tamaño: {doc.get('file_size',0)} bytes")
+            if mime == 'application/pdf' or nombre.lower().endswith('.pdf') or 'pdf' in mime.lower():
                 print(f"📄 Procesando PDF: {nombre} de {remitente}")
                 pdf_bytes = descargar_pdf(doc['file_id'])
                 if pdf_bytes:
