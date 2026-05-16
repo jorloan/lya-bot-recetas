@@ -95,8 +95,7 @@ Notas importantes:
         headers={
             'Content-Type': 'application/json',
             'x-api-key': CLAUDE_API_KEY,
-            'anthropic-version': '2023-06-01',
-            'anthropic-beta': 'pdfs-2024-09-27'
+            'anthropic-version': '2023-06-01'
         },
         method='POST'
     )
