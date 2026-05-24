@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-05-22",
+    "fechaAplicacion": "2026-05-26",
+    "volumen": 0,
+    "observaciones": "Como el ultimo pase de trips se dio el dia 21 hasta el proximo jueves se podria echar el serifel y el tulga, os lo pongo junto por si quereis darlo el martes con la cura general para evitar otro pase de tractor a los dos dias, esa decision la dejo en vosotros a mi me vale el martes todo o martes general y jueves trips.",
+    "productos": [
+      {
+        "nombre": "ARCTISE 480 SC o TULGA SPINEX",
+        "principio": "SPINOSAD 48%",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-24 17:40",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA PUENTE-ALFONSO",
     "plantacion": "INJERTOS ITUM SIXTEEN",
     "fechaVisita": "2026-05-21",
