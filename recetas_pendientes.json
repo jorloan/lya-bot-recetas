@@ -1,5 +1,91 @@
 [
   {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-05-27",
+    "fechaAplicacion": "2026-05-28",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "TULGA SPINEX",
+        "principio": "SPINOSAD 48% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-27 16:55",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-05-27",
+    "fechaAplicacion": "2026-05-28",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "TULGA SPINEX",
+        "principio": "SPINOSAD 48% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-27 16:55",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA CANAL",
     "plantacion": "ITUM TWELVE",
     "fechaVisita": "2026-05-27",
@@ -1737,32 +1823,6 @@
     "productos": [],
     "_fuente": "Telegram: receta.pdf (de Jose R)",
     "_importado": "2026-05-13 21:25",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automáticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-13 21:40",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automáticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-13 22:01",
     "_estado": "error_extraccion",
     "_error": "No se pudieron extraer datos automáticamente"
   }
