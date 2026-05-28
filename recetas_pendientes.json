@@ -1,5 +1,103 @@
 [
   {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM SIXTEEN",
+    "fechaVisita": "2026-05-28",
+    "fechaAplicacion": "2026-05-30",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-28 17:48",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-05-28",
+    "fechaAplicacion": "2026-05-29",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "TULGA SPINEX",
+        "principio": "SPINOSAD 48% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-28 17:48",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA BARQUILLA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-05-27",
@@ -1799,31 +1897,5 @@
     "_importado": "2026-05-14 12:13",
     "_estado": "error_extraccion",
     "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-13 21:17",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automáticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-13 21:25",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automáticamente"
   }
 ]
