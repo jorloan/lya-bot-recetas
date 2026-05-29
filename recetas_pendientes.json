@@ -1,5 +1,232 @@
 [
   {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "INJERTOS ITUM SIXTEEN",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-03",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SEMEFIL 20 SL",
+        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 16:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "INJERTOS ITUM SIXTEEN",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-01",
+    "volumen": 0,
+    "observaciones": "Para mediados de la proxima semana merer in pase de 7 cc de sipfol y repetimos a la semana",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 16:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "ITUM FIFTEEN MALLA",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-02",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 15,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "QUIKON",
+        "principio": "Fermentos y exudados de origen microbiano",
+        "dosis": 13,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 16:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "ITUM FIFTEEN CALLE",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-02",
+    "volumen": 0,
+    "observaciones": "Para primeros de semana poner los mosqueros tanto en estas como en las de las mallas que ya se ven los primeros granos enverando, apretaele ahora qje se puede con el abono que de calibre vamos justitos y algun pase ma de sipfol",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 15,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "QUIKON",
+        "principio": "Fermentos y exudados de origen microbiano",
+        "dosis": 13,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 16:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "ITUM FIFTEEN CALLE",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-05-29",
+    "volumen": 0,
+    "observaciones": "Para primeros de semana poner los mosqueros tanto en estas como en las de las mallas que ya se ven los primeros granos enverando, apretaele ahora qje se puede con el abono que de calibre vamos justitos y algun pase ma de sipfol",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 15,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "QUIKON",
+        "principio": "Fermentos y exudados de origen microbiano",
+        "dosis": 13,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 16:28",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-05-28",
@@ -1938,71 +2165,6 @@
     "productos": [],
     "_fuente": "Telegram: receta.pdf (de Jose R)",
     "_importado": "2026-05-16 05:10",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-15 15:00",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-15 12:26",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-15 12:26",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-15 12:26",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-14 16:34",
     "_estado": "error_extraccion",
     "_error": "No se pudieron extraer datos automaticamente"
   }
