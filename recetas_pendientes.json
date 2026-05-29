@@ -1,5 +1,79 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-02",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SEMEFIL 20 SL",
+        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF OCF",
+        "principio": "EXTRACTO DE ALGAS",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 19:10",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-05-29",
+    "fechaAplicacion": "2026-06-02",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SEMEFIL 20 SL",
+        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF OCF",
+        "principio": "EXTRACTO DE ALGAS",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-05-29 19:10",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA PUENTE-ALFONSO",
     "plantacion": "INJERTOS ITUM SIXTEEN",
     "fechaVisita": "2026-05-29",
@@ -2141,31 +2215,5 @@
     "_fuente": "Telegram: receta.pdf (de Jose R)",
     "_importado": "2026-05-16 05:15",
     "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-16 05:10",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
-  },
-  {
-    "finca": "",
-    "plantacion": "",
-    "fechaVisita": "",
-    "fechaAplicacion": "",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [],
-    "_fuente": "Telegram: receta.pdf (de Jose R)",
-    "_importado": "2026-05-16 05:10",
-    "_estado": "error_extraccion",
-    "_error": "No se pudieron extraer datos automaticamente"
   }
 ]
