@@ -1,5 +1,288 @@
 [
   {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:21",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:21",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:21",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "Aunque poco de momento pero ya se empieza a ver alguna parra con melazo",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:21",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "Se empiezan a ver un movimiento ya de melazo empezando a ser preocupante si sigue la evolucion que estan siguiendo los orros parrales que lo tienen",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:20",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:20",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-10",
+    "fechaAplicacion": "2026-06-11",
+    "volumen": 0,
+    "observaciones": "Ademas del tratamiento dar a los troncos con sivanto a 100 cc por 100 lt con el fit fai a 50 cc y reperomos en los troncos a los 8 dias mas o menos",
+    "productos": [
+      {
+        "nombre": "SIVANTO PRIME",
+        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
+        "dosis": 120,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-10 20:20",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA FONTANA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-06-08",
@@ -1840,301 +2123,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-05-24 17:40",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "INJERTOS ITUM SIXTEEN",
-    "fechaVisita": "2026-05-21",
-    "fechaAplicacion": "2026-05-23",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SEMEFIL 20 SL",
-        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
-        "dosis": 1.5,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERIFEL",
-        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "TULGA SPINEX",
-        "principio": "SPINOSAD 48% [SC] P/V",
-        "dosis": 25,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-21 19:18",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA CANAL",
-    "plantacion": "SUPERIOR",
-    "fechaVisita": "2026-05-21",
-    "fechaAplicacion": "2026-05-25",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-21 19:17",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "ITUM FIFTEEN MALLA",
-    "fechaVisita": "2026-05-20",
-    "fechaAplicacion": "2026-05-21",
-    "volumen": 0,
-    "observaciones": "Tratamiento jueves o vienes",
-    "productos": [
-      {
-        "nombre": "SEMEFIL 20 SL",
-        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SIPFOL MAX",
-        "principio": "Abono con aminoácidos, magnesio (2,5) y micronutrientes",
-        "dosis": 300,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-20 17:33",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "ITUM FIFTEEN CALLE",
-    "fechaVisita": "2026-05-20",
-    "fechaAplicacion": "2026-05-21",
-    "volumen": 0,
-    "observaciones": "Tratamiento jueves o viernes",
-    "productos": [
-      {
-        "nombre": "SEMEFIL 20 SL",
-        "principio": "ACIDO GIBERELICO 2% [SL] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SIPFOL MAX",
-        "principio": "Abono con aminoácidos, magnesio (2,5) y micronutrientes",
-        "dosis": 300,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-20 17:33",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "ITUM FIFTEEN CALLE",
-    "fechaVisita": "2026-05-20",
-    "fechaAplicacion": "2026-05-23",
-    "volumen": 0,
-    "observaciones": "Meter un pase de 8 cc de sipfol maxpor parra via riego y repetimos ala semana.",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 15,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PHYLGREEN",
-        "principio": "Algas marinas 100%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-20 17:33",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "ITUM FIFTEEN MALLA",
-    "fechaVisita": "2026-05-20",
-    "fechaAplicacion": "2026-05-23",
-    "volumen": 0,
-    "observaciones": "Meter un pase de 8 cc de sipfol max por parra via riego y repetimos a la semana.",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 15,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PHYLGREEN",
-        "principio": "Algas marinas 100%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-20 17:33",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-05-20",
-    "fechaAplicacion": "2026-05-21",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERIFEL",
-        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "TULGA SPINEX",
-        "principio": "SPINOSAD 48% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-20 17:33",
     "_estado": "pendiente_revision"
   }
 ]
