@@ -1,5 +1,79 @@
 [
   {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-06-12",
+    "fechaAplicacion": "2026-06-15",
+    "volumen": 0,
+    "observaciones": "Se ven granos de polvillo sueltos de la parte de abajo para arriba . Meter pase de azufre mañana sabado y si no se pudiera con el azufre entoces adelantamos el tratamiento a mañana en vez del lunes. Aqui la ultima receta no esta confirmada aunque en el telegram si",
+    "productos": [
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-12 18:29",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-06-12",
+    "fechaAplicacion": "2026-06-15",
+    "volumen": 0,
+    "observaciones": "Se ven granos sueltos de la parte de abajo para arriba . Meter pase de azufre mañana sabado y si no se pudiera con el azufre entoces adelantamos el tratamiento a mañana en vez del lunes. Aqui la ultima receta no esta confirmada aunque en el telegram si",
+    "productos": [
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-12 18:29",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA FONTANA",
     "plantacion": "ITUM NINE",
     "fechaVisita": "2026-06-12",
@@ -2043,92 +2117,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-05-26 22:09",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-05-25",
-    "fechaAplicacion": "2026-05-27",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERIFEL",
-        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "TULGA SPINEX",
-        "principio": "SPINOSAD 48% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-25 20:22",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA LEBOR",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-05-25",
-    "fechaAplicacion": "2026-05-27",
-    "volumen": 0,
-    "observaciones": "Para ultimos de semana meter via riego un pase de 7 cc de sipfol max por parra y repetimos a la semana",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-25 20:22",
     "_estado": "pendiente_revision"
   }
 ]
