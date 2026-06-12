@@ -1,5 +1,54 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-06-12",
+    "fechaAplicacion": "2026-06-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-12 16:37",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "ITUM TWENTY",
     "fechaVisita": "2026-06-11",
@@ -2080,49 +2129,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-05-25 20:22",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-05-25",
-    "fechaAplicacion": "2026-05-27",
-    "volumen": 0,
-    "observaciones": "Para ultimos de semana meter via riego un pase de 7 cc de sipfol max por parra y repetimos a la semana",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-25 20:21",
     "_estado": "pendiente_revision"
   }
 ]
