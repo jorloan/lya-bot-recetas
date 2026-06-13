@@ -1,5 +1,85 @@
 [
   {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-13",
+    "fechaAplicacion": "2026-06-16",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-13 09:46",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "SUPERIOR",
+    "fechaVisita": "2026-06-13",
+    "fechaAplicacion": "2026-06-16",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 15,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "QUIKON",
+        "principio": "Fermentos y exudados de origen microbiano",
+        "dosis": 12,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-13 09:46",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA NOGUERA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-06-12",
@@ -2025,98 +2105,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-05-27 16:55",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA CANAL",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-05-27",
-    "fechaAplicacion": "2026-05-29",
-    "volumen": 0,
-    "observaciones": "Meter via riego un pase de 7 cc de sipfol max por parra y repetimos a los 7 dias. Se ve bastante movimiento de hormigas tanto en troncos que tienen melazo como en el suelo andando por las mangueras. Quizas seria recomendable darle cuanto antes a troncos y suelo con deltametrina a 150 cc por 100 lt para bajar poblacion. Las superior estan en la misma situacion. He visto hembras aladas de pulgon haciendo nuevas puestas esperemos que el ecoil sea suficiente junto con la subida se temperaturas para que no evolucionen y llegue a ser un problema",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-27 13:50",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA RAMBLA",
-    "plantacion": "ITUM FOUR",
-    "fechaVisita": "2026-05-26",
-    "fechaAplicacion": "2026-05-30",
-    "volumen": 0,
-    "observaciones": "Meter via riego un pase de 7 cc por parra de sipfol max y repetimos a la semana",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-05-26 22:09",
     "_estado": "pendiente_revision"
   }
 ]
