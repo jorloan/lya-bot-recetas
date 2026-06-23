@@ -1,5 +1,98 @@
 [
   {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-23",
+    "fechaAplicacion": "2026-06-25",
+    "volumen": 0,
+    "observaciones": "Aunque lo poblacion a bajado bastante y el ritmo de propagacion se ha relentizado muchisimo pero siguen llegando a las uvas. Tenemos que seguir con todo. Pases al tronco. Epik al gotero a los 25 o 30 dias maximo de la primera aplicacion y el producto que estais metiendo por arriba",
+    "productos": [
+      {
+        "nombre": "SIVANTO PRIME",
+        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-23 11:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-06-23",
+    "fechaAplicacion": "2026-06-26",
+    "volumen": 0,
+    "observaciones": "Van escasas de grano apretarme un poco mas o incluso anadirle sipfol 2 o 3 cc por parra mezclado con el abono los proximos 10 dias",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ASPIRE",
+        "principio": "Inductor de autodefensa",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-23 11:28",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-06-23",
+    "fechaAplicacion": "2026-06-25",
+    "volumen": 0,
+    "observaciones": "Alta atencion a las recomendaciones que envie sobre el sivanto.",
+    "productos": [
+      {
+        "nombre": "SIVANTO PRIME",
+        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-06-23 11:28",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA RAMBLA",
     "plantacion": "ITUM FOUR",
     "fechaVisita": "2026-06-21",
@@ -1898,147 +1991,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-05 18:28",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA NOGUERA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-05",
-    "fechaAplicacion": "2026-06-08",
-    "volumen": 0,
-    "observaciones": "El melazo lleva una evoluccion super rapida, es Imprescindible y cuanto antes darle el pase a los troncos con el sivanto y repetir a la semana E intentar evitar por todos los medios que la infeccion que de momento esta en los troncos se nos suba arriba.",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-05 18:28",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA CANAL",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-04",
-    "fechaAplicacion": "2026-06-08",
-    "volumen": 0,
-    "observaciones": "Importante no alargar de ninguna manera el dia de aplicacion de esta receta ya que para mi gusto preferiria dado el alto riesgo que hay tratar a los 9 dias pero como cae en domingo lo paso a lunes",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-04 20:17",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA CANAL",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-04",
-    "fechaAplicacion": "2026-06-04",
-    "volumen": 0,
-    "observaciones": "Importante no alargar de ninguna manera el dia de aplicacion de esta receta ya que para mi gusto preferiria dado el alto riesgo que hay tratar a los 9 dias pero como cae en domingo lo paso a lunes.",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-04 20:17",
     "_estado": "pendiente_revision"
   }
 ]
