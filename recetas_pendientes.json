@@ -1,6 +1,92 @@
 [
   {
     "finca": "FINCA FONTANA",
+    "plantacion": "INJERTOS ITUM TWENTY",
+    "fechaVisita": "2026-07-01",
+    "fechaAplicacion": "2026-07-02",
+    "volumen": 0,
+    "observaciones": "Estos son donde estaba la itum 10",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-01 10:10",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "INJERTOS BRAZOS",
+    "fechaVisita": "2026-07-01",
+    "fechaAplicacion": "2026-07-02",
+    "volumen": 0,
+    "observaciones": "Estos son los del invernadero donde antes eran itum 15",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-01 10:10",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-06-29",
     "fechaAplicacion": "2026-07-01",
@@ -1876,92 +1962,6 @@
         "nombre": "FIT FAI",
         "principio": "REGULADOR DE PH",
         "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-10 20:21",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-06-10",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-10 20:21",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA LEBOR",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-10",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "Aunque poco de momento pero ya se empieza a ver alguna parra con melazo",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
         "unidad": "cc"
       }
     ],
