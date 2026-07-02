@@ -1,5 +1,79 @@
 [
   {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM SIXTEEN",
+    "fechaVisita": "2026-07-02",
+    "fechaAplicacion": "2026-07-06",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-02 18:49",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-07-02",
+    "fechaAplicacion": "2026-07-06",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "COLOREO",
+        "principio": "Abono NK con Extracto de Algas y Aminoácidos. Super inductor de cambio de",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-02 18:48",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "ITUM TWENTY",
     "fechaVisita": "2026-07-01",
@@ -1869,98 +1943,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-12 18:29",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-06-12",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-12 16:37",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA MIRADOR",
-    "plantacion": "ITUM TWENTY",
-    "fechaVisita": "2026-06-11",
-    "fechaAplicacion": "2026-06-15",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-11 20:37",
     "_estado": "pendiente_revision"
   }
 ]
