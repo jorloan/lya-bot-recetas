@@ -2,6 +2,135 @@
   {
     "finca": "FINCA NOGUERA",
     "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-06",
+    "fechaAplicacion": "2026-07-08",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-06 13:29",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-06",
+    "fechaAplicacion": "2026-07-08",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-06 13:29",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "INJERTOS ITUM SIXTEEN",
+    "fechaVisita": "2026-07-06",
+    "fechaAplicacion": "2026-07-09",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "F-RET",
+        "principio": "NITRÓGENO 0% + FÓSFORO 20% + POTASIO 17%",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "QUIKON",
+        "principio": "Fermentos y exudados de origen microbiano",
+        "dosis": 12.5,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-06 13:29",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-07-03",
     "fechaAplicacion": "2026-07-06",
     "volumen": 0,
@@ -1784,129 +1913,6 @@
     ],
     "_fuente": "Telegram: FINCA FONTANA — 13-06-2026.pdf (de Jose R)",
     "_importado": "2026-06-13 15:11",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FONTANA",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-12",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIRES",
-        "principio": "Azufre",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: FINCA FONTANA — 13-06-2026.pdf (de Jose R)",
-    "_importado": "2026-06-13 15:11",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA LEBOR",
-    "plantacion": "ITUM SIXTEEN",
-    "fechaVisita": "2026-06-13",
-    "fechaAplicacion": "2026-06-17",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ASPIRE",
-        "principio": "Inductor de autodefensa",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 200,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-13 11:43",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA MIRADOR",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-13",
-    "fechaAplicacion": "2026-06-15",
-    "volumen": 0,
-    "observaciones": "En la pieza de los brazos de arriba se ve polvillo que ha partido de una parra en el centro mas el de la banda, ademas ya se ve algun grano que va en las que lindan tambien del tercio que esta por debajo en las primeras filas. Trataremos el lunes con esas dosis pero cuando te toque la cuba que tratara la parte de arriba y las filas mas proximas a ese trozo meteremos el sercadis a 40 cc en vez de 30 cc.",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-13 11:43",
     "_estado": "pendiente_revision"
   }
 ]
