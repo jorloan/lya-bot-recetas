@@ -1,5 +1,172 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-07",
+    "fechaAplicacion": "2026-07-10",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SIVANTO PRIME",
+        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-07 16:51",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-07-07",
+    "fechaAplicacion": "2026-07-09",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SIVANTO PRIME",
+        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-07 16:51",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-07",
+    "fechaAplicacion": "2026-07-09",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-07 16:50",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-07-07",
+    "fechaAplicacion": "2026-07-10",
+    "volumen": 0,
+    "observaciones": "Aunque solo lo he visto en una parra de momemto pero ya he visto melazo en la uva",
+    "productos": [
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 35,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 30,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-07 16:50",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA RAMBLA",
+    "plantacion": "ITUM FOUR",
+    "fechaVisita": "2026-07-07",
+    "fechaAplicacion": "2026-07-09",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-07 16:50",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA NOGUERA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-07-06",
@@ -1716,203 +1883,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-18 17:09",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA RAMBLA",
-    "plantacion": "ITUM FOUR",
-    "fechaVisita": "2026-06-15",
-    "fechaAplicacion": "2026-06-18",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 200,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-15 16:27",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA NOGUERA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-14",
-    "fechaAplicacion": "2026-06-18",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-14 12:06",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-12",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIRES",
-        "principio": "Azufre",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: FINCA FONTANA — 13-06-2026.pdf (de Jose R)",
-    "_importado": "2026-06-13 15:11",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FONTANA",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-12",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIRES",
-        "principio": "Azufre",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: FINCA FONTANA — 13-06-2026.pdf (de Jose R)",
-    "_importado": "2026-06-13 15:11",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FONTANA",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-06-12",
-    "fechaAplicacion": "2026-06-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIRES",
-        "principio": "Azufre",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: FINCA FONTANA — 13-06-2026.pdf (de Jose R)",
-    "_importado": "2026-06-13 15:11",
     "_estado": "pendiente_revision"
   }
 ]
