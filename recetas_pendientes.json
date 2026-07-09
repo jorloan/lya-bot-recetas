@@ -1,5 +1,91 @@
 [
   {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM TWENTY",
+    "fechaVisita": "2026-07-09",
+    "fechaAplicacion": "2026-07-13",
+    "volumen": 0,
+    "observaciones": "Estas han llevado una paliza fuerte de hojas y tallos meter via riego un pase de 6 cc por parra de sipfol max",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-09 20:19",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM 5 CASA POVEDA",
+    "fechaVisita": "2026-07-09",
+    "fechaAplicacion": "2026-07-13",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-09 20:19",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA FONTANA",
     "plantacion": "ITUM TWELVE",
     "fechaVisita": "2026-07-08",
@@ -1815,74 +1901,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-19 10:39",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-06-19",
-    "fechaAplicacion": "2026-06-22",
-    "volumen": 0,
-    "observaciones": "Al dia siguiente de este tratamiento si el clima nos lo permite daremos un pase de azufre espolvoreo",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-19 10:39",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-06-19",
-    "fechaAplicacion": "2026-06-20",
-    "volumen": 0,
-    "observaciones": "Se ve polvillo en las bandas que senos esta metiendo dentro serecomienda tratamiento a lasbandas con el pistolete.Aquiseguimos con daramun en eltrtamiento por que se ve algunahoja de las de antes con algunmicelio blanco vivo",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "KANTAREL",
-        "principio": "PENCONAZOL 10% [EC] P/V",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PHYLGREEN",
-        "principio": "Algas marinas 100%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-19 10:38",
     "_estado": "pendiente_revision"
   }
 ]
