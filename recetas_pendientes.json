@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA RAMBLA",
+    "plantacion": "ITUM FOUR",
+    "fechaVisita": "2026-06-15",
+    "fechaAplicacion": "2026-06-18",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Jose R)",
+    "_importado": "2026-07-10 10:00",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "ITUM TWENTY",
     "fechaVisita": "2026-07-09",
@@ -1876,31 +1919,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-19 17:01",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-19",
-    "fechaAplicacion": "2026-06-22",
-    "volumen": 0,
-    "observaciones": "Al dia siguiente de este tratamiento si el clima nos lo permite daremos un pase de azufre espolvoreo",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-19 10:39",
     "_estado": "pendiente_revision"
   }
 ]
