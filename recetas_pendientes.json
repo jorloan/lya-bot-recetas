@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA LEBOR",
+    "plantacion": "ITUM SIXTEEN",
+    "fechaVisita": "2026-07-13",
+    "fechaAplicacion": "2026-07-13",
+    "volumen": 0,
+    "observaciones": "Se ven bastante picadura de mosca y que iran en aumento conforme vaya madurando la uva. Por tanto con caracter de urgencia, Haremos parcheos con la mochila refulamdo la boquilla a gota gorda (A troncos, tubos y metiendo la boquilla entre las hojas, en medio de las calles y siempre sin que caiga a la uva ) Con atrapa a 30 cc por mochila mas cebo a 400 cc. Tambien realizaremos tratamientos al suelo, solo con las boquillas de abajo y dirigidas hacia el suelo con atrapa a 250 cc por cada 100 lt y 1,5 lt de cebo. Esto lo realizaremos con un intervalo de maximo siete dias hasta que recolectemos la uva, Tambien habria que aumentar la intensidad de mosquero, que se podria hacer trayendo lo de la Superior ya recolectadas",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ASPIRE",
+        "principio": "Inductor de autodefensa",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "RET-Ca",
+        "principio": "CALCIO 15%",
+        "dosis": 250,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-13 09:06",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA BARQUILLA",
     "plantacion": "ITUM NINE",
     "fechaVisita": "2026-07-10",
@@ -1878,49 +1921,6 @@
         "principio": "CIMOXANILO 45% [WG] P/P",
         "dosis": 50,
         "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-19 17:01",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-19",
-    "fechaAplicacion": "2026-06-22",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 200,
-        "unidad": "cc"
       },
       {
         "nombre": "ECOIL",
