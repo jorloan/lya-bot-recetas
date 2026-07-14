@@ -1,5 +1,91 @@
 [
   {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-14",
+    "fechaAplicacion": "2026-07-16",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-14 16:03",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-14",
+    "fechaAplicacion": "2026-07-16",
+    "volumen": 0,
+    "observaciones": "El ecoil solamente a las zonas que no llevan sivanto. Aqui estan empezando a enverar y las de debajo del almacen suele tocar la mosca y este año esta tocando fuerte la mosca por lo que seria recomendable colocar en cuanto se pueda los mosqueros",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-14 16:03",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA LEBOR",
     "plantacion": "ITUM SIXTEEN",
     "fechaVisita": "2026-07-14",
@@ -1863,68 +1949,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-06-23 11:28",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA RAMBLA",
-    "plantacion": "ITUM FOUR",
-    "fechaVisita": "2026-06-21",
-    "fechaAplicacion": "2026-06-23",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-21 12:29",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA NOGUERA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-21",
-    "fechaAplicacion": "2026-06-23",
-    "volumen": 0,
-    "observaciones": "Repasar las bandas sobretodo las de la carretera con dl pistolete y tirar todas las uvas afectadas asi como las de las parras mas proximas pues son el principal punto de propagacion y los aires de estos pasados dias y los de ahora no estan ayudando en nada si no que lo estan provocando muy rapidamente.a los dos dias del tratamiento volvemos a hechar si el clima nos lo permite otro pase de azufre espolvoreo",
-    "productos": [
-      {
-        "nombre": "LUNA PRIVILEGE",
-        "principio": "FLUOPYRAM 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-21 12:29",
     "_estado": "pendiente_revision"
   }
 ]
