@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA PUENTE-ALFONSO",
+    "plantacion": "INJERTOS ITUM SIXTEEN",
+    "fechaVisita": "2026-07-20",
+    "fechaAplicacion": "2026-07-23",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ASPIRE",
+        "principio": "Inductor de autodefensa",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "F-RET",
+        "principio": "NITRÓGENO 0% + FÓSFORO 20% + POTASIO 17%",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-20 09:41",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA BARQUILLA",
     "plantacion": "ITUM NINE",
     "fechaVisita": "2026-07-20",
@@ -1898,43 +1941,6 @@
   {
     "finca": "FINCA BARQUILLA",
     "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-06-26",
-    "fechaAplicacion": "2026-06-27",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-26 07:51",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-06-26",
     "fechaAplicacion": "2026-06-27",
     "volumen": 0,
