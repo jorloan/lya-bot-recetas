@@ -1,6 +1,92 @@
 [
   {
     "finca": "FINCA MIRADOR",
+    "plantacion": "INJERTOS BRAZOS INVERNADERO",
+    "fechaVisita": "2026-07-23",
+    "fechaAplicacion": "2026-07-27",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "ARMETIL 25 WP",
+        "principio": "METALAXIL 25% [WP] P/P",
+        "dosis": 120,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-23 16:10",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-23",
+    "fechaAplicacion": "2026-07-23",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PROACTIF DUREZA",
+        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
+        "dosis": 200,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-23 16:09",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-07-22",
     "fechaAplicacion": "2026-07-24",
@@ -1845,92 +1931,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-01 10:10",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA MIRADOR",
-    "plantacion": "INJERTOS BRAZOS",
-    "fechaVisita": "2026-07-01",
-    "fechaAplicacion": "2026-07-02",
-    "volumen": 0,
-    "observaciones": "Estos son los del invernadero donde antes eran itum 15",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "EPIK",
-        "principio": "ACETAMIPRID 20% [SP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PHYLGREEN",
-        "principio": "Algas marinas 100%",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SIPFOL MAX+",
-        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
-        "dosis": 300,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-01 10:10",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-06-29",
-    "fechaAplicacion": "2026-07-01",
-    "volumen": 0,
-    "observaciones": "En los troncos como estan pelados no se aprecia nada pero arriba aunque muy muy poco pero ya se ha visto un poco de movilidad de melazo",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-06-29 18:19",
     "_estado": "pendiente_revision"
   }
 ]
