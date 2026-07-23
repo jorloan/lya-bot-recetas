@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "INJERTOS ITUM TWENTY",
+    "fechaVisita": "2026-07-23",
+    "fechaAplicacion": "2026-07-27",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "ARMETIL 25 WP",
+        "principio": "METALAXIL 25% [WP] P/P",
+        "dosis": 120,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "KANTAREL",
+        "principio": "PENCONAZOL 10% [EC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-23 16:51",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "INJERTOS BRAZOS INVERNADERO",
     "fechaVisita": "2026-07-23",
@@ -1888,49 +1931,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-02 13:11",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "INJERTOS ITUM TWENTY",
-    "fechaVisita": "2026-07-01",
-    "fechaAplicacion": "2026-07-02",
-    "volumen": 0,
-    "observaciones": "Estos son donde estaba la itum 10",
-    "productos": [
-      {
-        "nombre": "DARAMUN",
-        "principio": "CIAZOFAMIDA 10% [SC] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "EPIK",
-        "principio": "ACETAMIPRID 20% [SP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 20,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PHYLGREEN",
-        "principio": "Algas marinas 100%",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "SIPFOL MAX+",
-        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
-        "dosis": 300,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-01 10:10",
     "_estado": "pendiente_revision"
   }
 ]
