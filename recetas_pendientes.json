@@ -1,5 +1,196 @@
 [
   {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-08-04",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "COLOREO",
+        "principio": "Abono NK con Extracto de Algas y Aminoácidos. Super inductor de cambio de",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 15:54",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM TWENTY",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-07-30",
+    "volumen": 0,
+    "observaciones": "Esta como os he comentado se puede hacer desde mañana al lunes, eso si siempre por la mañana a partir de las 9",
+    "productos": [
+      {
+        "nombre": "AGRIMEC",
+        "principio": "ABAMECTINA 1,8% [EC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 15:54",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM 5 CASA POVEDA",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-08-04",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECKLONUBOL",
+        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
+        "dosis": 200,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 15:54",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-08-03",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "AGRIMEC",
+        "principio": "ABAMECTINA 1,8% [EC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 15:54",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-08-01",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "COLOREO",
+        "principio": "Abono NK con Extracto de Algas y Aminoácidos. Super inductor de cambio de",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 15:54",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA FONTANA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-07-28",
@@ -1764,179 +1955,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-03 08:20",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-07-03",
-    "fechaAplicacion": "2026-07-07",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-03 08:20",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-03",
-    "fechaAplicacion": "2026-07-07",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-03 08:20",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-07-03",
-    "fechaAplicacion": "2026-07-04",
-    "volumen": 0,
-    "observaciones": "Veo que el azufre no se ha echado,de momento ya no echarlo por quetenemos que hacer una aplicacionde sivanto para el martes proximopor tanto ya seria despues deaplicar el sivanto",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-03 08:19",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-03",
-    "fechaAplicacion": "2026-07-04",
-    "volumen": 0,
-    "observaciones": "Veo que el azufre no se ha echado, de momento ya no echarlo por que tenemos que hacer una aplicacion de sivanto para el martes proximo por tanto ya seria despues de aplicar el sivanto.",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-03 08:19",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA LEBOR",
-    "plantacion": "ITUM SIXTEEN",
-    "fechaVisita": "2026-07-02",
-    "fechaAplicacion": "2026-07-06",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERIFEL",
-        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
-        "dosis": 50,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 25,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-02 18:49",
     "_estado": "pendiente_revision"
   }
 ]
