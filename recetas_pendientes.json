@@ -1,5 +1,67 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-08-04",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ASPIRE",
+        "principio": "Inductor de autodefensa",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 16:54",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM NINE",
+    "fechaVisita": "2026-07-30",
+    "fechaAplicacion": "2026-07-31",
+    "volumen": 0,
+    "observaciones": "Ademas de los pajaros y ratas que comente anteriormente la mosca esta tambien haciendo bastante daño por eso este tratamiento y ademas deneis parchear de cez en cuando",
+    "productos": [
+      {
+        "nombre": "ARCTISE 480 SC o TULGA SPINEX",
+        "principio": "SPINOSAD 48%",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-07-30 16:54",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA BARQUILLA",
     "plantacion": "ITUM NINE",
     "fechaVisita": "2026-07-30",
@@ -1887,74 +1949,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-06 13:29",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA PUENTE-ALFONSO",
-    "plantacion": "INJERTOS ITUM SIXTEEN",
-    "fechaVisita": "2026-07-06",
-    "fechaAplicacion": "2026-07-09",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "F-RET",
-        "principio": "NITRÓGENO 0% + FÓSFORO 20% + POTASIO 17%",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "QUIKON",
-        "principio": "Fermentos y exudados de origen microbiano",
-        "dosis": 12.5,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-06 13:29",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA NOGUERA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-03",
-    "fechaAplicacion": "2026-07-06",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-03 08:20",
     "_estado": "pendiente_revision"
   }
 ]
