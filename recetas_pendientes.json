@@ -1,5 +1,42 @@
 [
   {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM TWENTY",
+    "fechaVisita": "2026-08-03",
+    "fechaAplicacion": "2026-08-06",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-03 18:23",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA RAMBLA",
     "plantacion": "ITUM FOUR",
     "fechaVisita": "2026-08-03",
@@ -1848,43 +1885,6 @@
         "principio": "CIMOXANILO 45% [WG] P/P",
         "dosis": 40,
         "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-07 16:50",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-07-07",
-    "fechaAplicacion": "2026-07-10",
-    "volumen": 0,
-    "observaciones": "Aunque solo lo he visto en una parra de momemto pero ya he visto melazo en la uva",
-    "productos": [
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 35,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 30,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
       },
       {
         "nombre": "FIT FAI",
