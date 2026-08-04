@@ -1,5 +1,91 @@
 [
   {
+    "finca": "FINCA FONTANA",
+    "plantacion": "INJERTOS ITUM TWENTY",
+    "fechaVisita": "2026-08-04",
+    "fechaAplicacion": "2026-08-08",
+    "volumen": 0,
+    "observaciones": "Estos son los injertos de la fontana",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-04 17:52",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
+    "plantacion": "INJERTOS BRAZOS INVERNADERO",
+    "fechaVisita": "2026-08-04",
+    "fechaAplicacion": "2026-08-08",
+    "volumen": 0,
+    "observaciones": "Estos son los injertos del invernadero",
+    "productos": [
+      {
+        "nombre": "DARAMUN",
+        "principio": "CIAZOFAMIDA 10% [SC] P/V",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "EPIK",
+        "principio": "ACETAMIPRID 20% [SP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "PHYLGREEN",
+        "principio": "Algas marinas 100%",
+        "dosis": 250,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SIPFOL MAX+",
+        "principio": "AMINOACIDOS CON MICRONUTRIENTES Solución PK 18,6 - 1.",
+        "dosis": 300,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-04 17:52",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA MIRADOR",
     "plantacion": "ITUM TWENTY",
     "fechaVisita": "2026-08-03",
@@ -1833,68 +1919,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-07 16:51",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA CANAL",
-    "plantacion": "ITUM TWELVE",
-    "fechaVisita": "2026-07-07",
-    "fechaAplicacion": "2026-07-09",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SIVANTO PRIME",
-        "principio": "FLUPIRADIFURONA 20% [SL] P/V",
-        "dosis": 100,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-07 16:51",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA FONTANA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-07",
-    "fechaAplicacion": "2026-07-09",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-07 16:50",
     "_estado": "pendiente_revision"
   }
 ]
