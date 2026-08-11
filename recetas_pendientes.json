@@ -1,6 +1,37 @@
 [
   {
     "finca": "FINCA MIRADOR",
+    "plantacion": "ITUM TWENTY",
+    "fechaVisita": "2026-08-11",
+    "fechaAplicacion": "2026-08-12",
+    "volumen": 0,
+    "observaciones": "Tratamiento urgente. Tratar con boquillas amarillas y un gasto de producto por ha de 750 cc. Tratar tambien pero esta vez con pistolete tambien urgente con velifer a 150 cc por 100lt mojando troncos brazos y uvas sobretodo las ubas que ya se le nota que estan afectadas. El producto ni mancha ni quema pero si puede dejar gota abajo lo que pueda producir el propio arrastre de la aplicacion con pistolete pero es preferible una uva con mancha de arrastre que una uva con melazo, de todas formas id obsevando como se quedan",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "NEKTIL NUAR",
+        "principio": "SOLUCION DE ABONO A BASE DE ZINC",
+        "dosis": 75,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-11 13:35",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA MIRADOR",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-08-10",
     "fechaAplicacion": "2026-08-13",
@@ -1876,55 +1907,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-13 09:06",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-07-10",
-    "fechaAplicacion": "2026-07-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-10 10:49",
     "_estado": "pendiente_revision"
   }
 ]
