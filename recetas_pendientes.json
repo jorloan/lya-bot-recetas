@@ -1,5 +1,48 @@
 [
   {
+    "finca": "FINCA NOGUERA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-08-13",
+    "fechaAplicacion": "2026-08-17",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "AGRIMEC",
+        "principio": "ABAMECTINA 1,8% [EC] P/V",
+        "dosis": 110,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 30,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 40,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-13 18:29",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA FONTANA",
     "plantacion": "ITUM TWELVE",
     "fechaVisita": "2026-08-12",
@@ -1804,55 +1847,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-14 10:05",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA BARQUILLA",
-    "plantacion": "ITUM NINE",
-    "fechaVisita": "2026-07-10",
-    "fechaAplicacion": "2026-07-13",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 30,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "PROACTIF DUREZA",
-        "principio": "Oxido de calcio 8%, Oxido de potasio 8%",
-        "dosis": 200,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Lopez Perez)",
-    "_importado": "2026-07-14 08:22",
     "_estado": "pendiente_revision"
   }
 ]
