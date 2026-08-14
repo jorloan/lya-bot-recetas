@@ -1,5 +1,122 @@
 [
   {
+    "finca": "FINCA RAMBLA",
+    "plantacion": "ITUM FOUR",
+    "fechaVisita": "2026-08-14",
+    "fechaAplicacion": "2026-08-18",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 20,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 25,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-14 16:26",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA BARQUILLA",
+    "plantacion": "ITUM FIVE",
+    "fechaVisita": "2026-08-14",
+    "fechaAplicacion": "2026-08-18",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERCADIS",
+        "principio": "FLUXAPYROXAD 30% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "VIVANDO",
+        "principio": "METRAFENONA 50% [SC] P/V",
+        "dosis": 40,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "XANILO 45 WG",
+        "principio": "CIMOXANILO 45% [WG] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-14 16:26",
+    "_estado": "pendiente_revision"
+  },
+  {
+    "finca": "FINCA CANAL",
+    "plantacion": "ITUM TWELVE",
+    "fechaVisita": "2026-08-14",
+    "fechaAplicacion": "2026-08-19",
+    "volumen": 0,
+    "observaciones": "",
+    "productos": [
+      {
+        "nombre": "SERIFEL",
+        "principio": "BACILLUS AMYLOLIQUEFACIENS (cepa MBI 600) 11% [WP] P/P",
+        "dosis": 50,
+        "unidad": "gr"
+      },
+      {
+        "nombre": "ASPIRE",
+        "principio": "Inductor de autodefensa",
+        "dosis": 100,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "ECOIL",
+        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
+        "dosis": 300,
+        "unidad": "cc"
+      },
+      {
+        "nombre": "FIT FAI",
+        "principio": "REGULADOR DE PH",
+        "dosis": 50,
+        "unidad": "cc"
+      }
+    ],
+    "_fuente": "Telegram: receta.pdf (de Andrés)",
+    "_importado": "2026-08-14 16:25",
+    "_estado": "pendiente_revision"
+  },
+  {
     "finca": "FINCA NOGUERA",
     "plantacion": "ITUM FIVE",
     "fechaVisita": "2026-08-13",
@@ -1736,117 +1853,6 @@
     ],
     "_fuente": "Telegram: receta.pdf (de Andrés)",
     "_importado": "2026-07-16 12:45",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA NOGUERA",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-14",
-    "fechaAplicacion": "2026-07-16",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "XANILO 45 WG",
-        "principio": "CIMOXANILO 45% [WG] P/P",
-        "dosis": 40,
-        "unidad": "gr"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-14 16:03",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA MIRADOR",
-    "plantacion": "ITUM FIVE",
-    "fechaVisita": "2026-07-14",
-    "fechaAplicacion": "2026-07-16",
-    "volumen": 0,
-    "observaciones": "El ecoil solamente a las zonas que no llevan sivanto. Aqui estan empezando a enverar y las de debajo del almacen suele tocar la mosca y este año esta tocando fuerte la mosca por lo que seria recomendable colocar en cuanto se pueda los mosqueros",
-    "productos": [
-      {
-        "nombre": "SERCADIS",
-        "principio": "FLUXAPYROXAD 30% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "VIVANDO",
-        "principio": "METRAFENONA 50% [SC] P/V",
-        "dosis": 40,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECKLONUBOL",
-        "principio": "bioestimulante formulado a base de alga Ecklonia maxima",
-        "dosis": 250,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "ECOIL",
-        "principio": "Oleato potásico 150 g/l (15,0% p/v)",
-        "dosis": 300,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-14 16:03",
-    "_estado": "pendiente_revision"
-  },
-  {
-    "finca": "FINCA LEBOR",
-    "plantacion": "ITUM SIXTEEN",
-    "fechaVisita": "2026-07-14",
-    "fechaAplicacion": "2026-07-14",
-    "volumen": 0,
-    "observaciones": "",
-    "productos": [
-      {
-        "nombre": "ARCTISE 480 SC o TULGA SPINEX",
-        "principio": "SPINOSAD 48%",
-        "dosis": 25,
-        "unidad": "cc"
-      },
-      {
-        "nombre": "FIT FAI",
-        "principio": "REGULADOR DE PH",
-        "dosis": 50,
-        "unidad": "cc"
-      }
-    ],
-    "_fuente": "Telegram: receta.pdf (de Andrés)",
-    "_importado": "2026-07-14 10:05",
     "_estado": "pendiente_revision"
   }
 ]
